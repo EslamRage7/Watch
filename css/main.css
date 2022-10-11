@@ -24,7 +24,7 @@ body {
   color: white;
 }
 /* --------------------------------end top-------------------------------- */
-/* start nav-one */
+/* --------------------------------start first-nav-------------------------------- */
 .first nav {
   background: linear-gradient(to right, #0b0b0b, #0b0b0b, #0b0b0b, #927a704a);
   height: 50px;
@@ -35,17 +35,6 @@ body {
 }
 nav .shopping {
   position: relative;
-}
-nav .shopping::after {
-  content: "3";
-  position: absolute;
-  left: 25px;
-  top: -20;
-  border-radius: 50%;
-  color: white;
-  background-color: var(--main-color--);
-  font-size: 7px;
-  padding: 5px;
 }
 nav .one {
   font-size: 12px;
@@ -64,6 +53,7 @@ nav .one {
     font-size: 11px;
   }
 }
+/* --------------------------------end first-nav-------------------------------- */
 /* --------------------------------start nav-------------------------------- */
 nav {
   background-color: var(--bg-color--);
