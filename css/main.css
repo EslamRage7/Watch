@@ -226,6 +226,10 @@ nav {
     width: 330px;
     margin-top: 12px;
   }
+  .collection .watch:hover {
+  box-shadow: 0px 0px 7px 0px rgba(217, 213, 213, 0.273);
+  margin-top: -2px;
+  }
 }
 /* --------------------------------end collection-------------------------------- */
 /* --------------------------------start clints-------------------------------- */
